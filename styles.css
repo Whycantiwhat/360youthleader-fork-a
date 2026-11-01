@@ -135,6 +135,9 @@ img { max-width: 100%; display: block; }
 
 .muted { color: var(--muted); }
 
+.topic-list a { color: var(--brand); text-decoration-color: var(--accent1); text-underline-offset: 3px; }
+.topic-list a:hover,.topic-list a:focus-visible { color: var(--accent2); }
+
 .card-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
